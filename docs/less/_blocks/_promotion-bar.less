@@ -1,0 +1,45 @@
+.promotion-bar {
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, .75);
+    background-image: url(../img/promotion-bar/bg01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-width: 992px) {
+        margin-bottom: 70px;
+    }
+}
+
+.second-promotion-bar {
+    background-image: url(../img/promotion-bar/bg02.jpg);
+}
+
+.promotion-bar-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+
+    @media (min-width: 992px) {
+        flex-direction: row;
+        text-align: left;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+
+.tagline {
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1;
+    color: #fff;
+
+    @media (min-width: 992px) {
+        margin-bottom: 0;
+        font-size: 52px;
+    }
+}
